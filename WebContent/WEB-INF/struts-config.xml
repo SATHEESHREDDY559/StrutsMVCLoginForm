@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts-config>
+     
+    <action-mappings>
+        <action path="/index" type="pack.ActionServletDemo" >
+           
+				<forward name="cs" path="/cs.jsp"/>
+				<forward name="cis" path="/cis.jsp"/>
+				<forward name="im" path="/im.jsp"/>
+				<forward name="error" path="/error.jsp"/>
+		</action>
+        
+    </action-mappings>
+ 
+</struts-config>
